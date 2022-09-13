@@ -11,3 +11,39 @@
     margin: 4px;
     background-color: blue;
   }
+
+  .lance-card{
+    background-image: url("../images/sk8er-4.png");
+    background-size: cover;
+    min-height: 275px;
+
+  }
+
+.rodney-card{
+  background-image: url("../images/sk8er-3.png");
+  background-size: cover;
+  min-height: 275px;
+}
+
+  .steve-card{
+    background-image: url("../images/sk8er-1.png");
+    background-size: cover;
+    min-height: 275px;
+  }
+  .tommy-card{
+    background-image: url("../images/sk8er-2.png");
+    background-size: cover;
+    min-height: 475px;
+  }
+
+  .lance-card, .rodney-card, .steve-card,.tommy-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rotate-sk8-board{
+    transform: rotate(90deg);
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
