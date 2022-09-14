@@ -80,3 +80,18 @@
   .ul-sk8 > li{
     margin: 40px;
   }
+
+  .form-section{
+    background-color: #F8FAFA;
+    margin: 40px;
+    text-align: left  ;
+  }
+
+  h2{
+    text-align: left;
+    padding: 40px;
+  }
+
+  .-H2{
+    padding: 40px;
+  }
