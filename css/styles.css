@@ -2,6 +2,24 @@
     background-image: url("../images/bg.jpg");
   } 
 
+  .nav--main .nav__item {
+    background-color: #A63634;
+    border-bottom: solid 3px #877676;
+    height: 45px;
+    padding: 5px;
+ }
+ 
+ .nav--main .nav__link {
+   color: #fff;
+ 
+ }
+ 
+ @media (min-width: 768px) {
+ .nav--main .nav__item:not(:last-child){
+   margin-right: 10px;
+ }
+ }
+
     .top-image{ 
     max-height: 360px;
     background-image:url("../images/grid.png"), url("../images/top-image.png");
@@ -91,6 +109,7 @@
     width: 100%;
   }
   
+  
   .form > button {
   position: absolute;
   bottom: 30px;
@@ -102,11 +121,43 @@
   color: white;
   }
 
+  .form, .contact-sheet {
+    padding: 30px;
+    position: relative;
+  }
+
+
+  
   h2{
     text-align: left;
     padding: 40px;
   }
+  @media (max-width: 690px) {
+    .form > button {
+      bottom: 1px;
+      height: 30px
+    }
+    }
 
-  .-H2{
-    padding: 40px;
-  }
+    @media (max-width: 767px){
+      .skateboard-image > img {
+        height: 95px;
+        width: 400px;
+        transform: translateX(8%);
+      }
+      }
+      
+      @media (min-width: 768px) {
+        .skateboard-image {
+          transform-origin: top left;
+          transform: rotate(90deg) translateY(-25%);
+          height: 260px;
+          width: 65px;
+        }
+      }
+      
+      @media (max-wdith: 767px) {
+        .skateboard-image {
+          background-color: red;
+        }
+      }
