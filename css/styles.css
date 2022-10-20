@@ -1,170 +1,166 @@
 .background-image {
-    background-image: url("../images/bg.jpg");
-  } 
-
-  .nav--main .nav__item {
-    background-color: #A63634;
-    border-bottom: solid 3px #877676;
-    height: 45px;
-    padding: 5px;
- }
- 
- .nav--main .nav__link {
-   color: #fff;
- 
- }
- 
- @media (min-width: 768px) {
- .nav--main .nav__item:not(:last-child){
-   margin-right: 10px;
- }
- }
-
-    .top-image{ 
-    max-height: 360px;
-    background-image:url("../images/grid.png"), url("../images/top-image.png");
-    }
-
-  .content-card-top{
-    margin: 10px;
-    background-color: #F8FAFA;
-    text-align: left;
-  }
-  
-.content-card{
-  background-color: #AE353D;
+  background-image: url("../images/bg.jpg");
 }
-  .read-more-txt{
-    text-align: center;
-    color: #AE353D  ;
+
+.nav--main .nav__item {
+  background-color: #a63634;
+  border-bottom: solid 3px #877676;
+  height: 45px;
+  padding: 5px;
+}
+
+.nav--main .nav__link {
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .nav--main .nav__item:not(:last-child) {
+    margin-right: 10px;
   }
+}
 
-  .peralta-logo{
-    max-width: 413px;
-    margin: 90px;
-  }
+.top-image {
+  max-height: 360px;
+  background-image: url("../images/grid.png"), url("../images/top-image.png");
+}
 
-  h2{
-    text-align: left;
-    padding: 40px;
-  }
+.content-card-top {
+  /* margin: 10px; */
+  /* background-color: #F8FAFA; */
+  text-align: left;
+}
 
-  .lance-card{
-    background-image: url("../images/sk8er-4.png");
-    background-size: cover;
-    min-height: 275px;
+.content-card {
+  background-color: #ae353d;
+}
+.read-more-txt {
+  text-align: center;
+  color: #ae353d;
+}
 
-  }
+.peralta-logo {
+  max-width: 413px;
+  margin: 90px;
+}
 
-.rodney-card{
+h2 {
+  text-align: left;
+  padding: 40px;
+}
+
+.lance-card {
+  background-image: url("../images/sk8er-4.png");
+  background-size: cover;
+  min-height: 275px;
+}
+
+.rodney-card {
   background-image: url("../images/sk8er-3.png");
   background-size: cover;
   min-height: 275px;
 }
 
-  .steve-card{
-    background-image: url("../images/sk8er-1.png");
-    background-size: cover;
-    min-height: 275px;
-  }
-  .tommy-card{
-    background-image: url("../images/sk8er-2.png");
-    background-size: cover;
-    min-height: 475px;
-  }
+.steve-card {
+  background-image: url("../images/sk8er-1.png");
+  background-size: cover;
+  min-height: 275px;
+}
+.tommy-card {
+  background-image: url("../images/sk8er-2.png");
+  background-size: cover;
+  min-height: 475px;
+}
 
-  .lance-card, .rodney-card, .steve-card,.tommy-card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid #F8FAFA;
-    
-    
-  }
+.lance-card,
+.rodney-card,
+.steve-card,
+.tommy-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #f8fafa;
+}
 
-  h1{
-    color: #FFFFFF;
-  }
-
-
+h1 {
+  color: #ffffff;
+}
 
 ul {
   list-style: none;
   padding-left: unset;
-
 }
 
-  .sk8-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .ul-sk8{
-    margin-left: auto;
-    margin-right: auto;
-    transform: rotate(-90deg);
-    background-color: #fff;
-    list-style-type: none;
-    display: inline-block;
-  }
+.sk8-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ul-sk8 {
+  margin-left: auto;
+  margin-right: auto;
+  transform: rotate(-90deg);
+  background-color: #fff;
+  list-style-type: none;
+  display: inline-block;
+}
 
-  .ul-sk8 > li{
-    margin: 40px;
-  }
+.ul-sk8 > li {
+  margin: 40px;
+}
 
-  .form > input {
-    margin: 5px;
-    width: 100%;
-  }
-  
-  .form > textarea {
-    margin: 5px;
-    width: 100%;
-  }
-  
-  
-  .form > button {
+.form > input {
+  margin: 5px;
+  width: 100%;
+}
+
+.form > textarea {
+  margin: 5px;
+  width: 100%;
+}
+
+.form > button {
   position: absolute;
   bottom: 30px;
   right: 30px;
-  background-color: #A63634;
+  background-color: #a63634;
   border-bottom: solid 3px #877676;
   height: 45px;
   width: 250px;
   color: white;
+}
+
+.form,
+.contact-sheet {
+  padding: 30px;
+  position: relative;
+}
+
+@media (max-width: 690px) {
+  .form > button {
+    bottom: 1px;
+    height: 30px;
   }
+}
 
-  .form, .contact-sheet {
-    padding: 30px;
-    position: relative;
-  }
-
-  @media (max-width: 690px) {
-    .form > button {
-      bottom: 1px;
-      height: 30px
-    }
-    }
-
-    @media (max-width: 767px){
+/* @media (max-width: 767px){
       .skateboard-image > img {
         height: 95px;
         width: 400px;
         transform: translateX(8%);
       }
-      }
-      
-      @media (min-width: 768px) {
-        .skateboard-image {
-          transform-origin: top left;
-          transform: rotate(90deg) translateY(-25%);
-          height: 260px;
-          width: 65px;
-        }
-      }
-      
-      @media (max-wdith: 767px) {
-        .skateboard-image {
-          background-color: red;
-        }
-      }
+      } */
+
+@media (min-width: 768px) {
+  .skateboard-image {
+    transform-origin: top left;
+    transform: rotate(90deg) translateY(-25%);
+    height: 260px;
+    width: 65px;
+  }
+}
+
+@media (max-width: 767px) {
+  .ul-sk8 {
+    transform: none;
+  }
+}
